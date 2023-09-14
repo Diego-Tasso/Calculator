@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    background-image: url('fundoCalc.png');
+    position: fixed;
+    height: 100vh;
+    color: #007F99;
+    font-family: 'Victor Mono', monospace;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover; /* Torna a imagem de fundo responsiva */
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgba(0,0,0,0.9);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid #007F99;
+}
+.calculadora h2 {
+    margin-bottom: 10px;
+}
+
+.botao {
+    background-color: rgba(37, 37, 37, 0.8);
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    color: #007F99;
+    margin: 3px;
+    transition: 0.3s;
+}
+.botao:hover {
+    background-color: black;
+}
+#resultado { 
+    margin-bottom: 16px;;
+    font-size: 25px;
+    background-color: #007F99;;
+    width: 212px;
+    height: 30px;
+    margin: 5px;
+    color: black;
+    text-align: left;
+    padding: 5px;
+}
+
